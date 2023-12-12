@@ -19,8 +19,9 @@ write the following commands:
 
 command 1)
 
+```bash
 mkdir package
-
+```
 Command 2) install the Pillow (PIL) library and dependencies
 
 ```bash
@@ -35,20 +36,24 @@ pillow boto3
 ```
 Command 3) go to package folder
 
+```bash
 cd package
-
+```
 Command 4) Zip the contents of the package folder
 
+```bash
 zip -r ../lambda_function.zip .
-
+```
 Command 5) Go back to the project folder
 
+```bash
 cd ..
-
+```
 Command 6) Zip the lambda_function.py file into the lambda_function.zip file
 
+```bash
 zip lambda_function.zip lambda_function.py
-
+```
 
 # step 5
 
