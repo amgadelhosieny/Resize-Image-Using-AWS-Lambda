@@ -20,7 +20,7 @@ write the following commands:
 command 1)
 
 ```bash
-mkdir package
+ mkdir package
 ```
 Command 2) install the Pillow (PIL) library and dependencies
 
