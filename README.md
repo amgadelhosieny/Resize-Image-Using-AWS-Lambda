@@ -23,6 +23,7 @@ mkdir package
 
 Command 2) install the Pillow (PIL) library and dependencies
 
+```bash
 sudo apt update \
 pip3 install \
 --platform manylinux2014_x86_64 \
@@ -31,7 +32,7 @@ pip3 install \
 --python-version 3.9 \
 --only-binary=:all: --upgrade \
 pillow boto3
-
+```
 Command 3) go to package folder
 
 cd package
