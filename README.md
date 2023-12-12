@@ -16,11 +16,12 @@ make Execution Role to connect IAM Policy to lambda function
 # step 4
 
 write the following commands:
-Command 1: Create a package folder
+
+command 1)
 -----------------------------------
 mkdir package
 
-Command 2: install the Pillow (PIL) library and dependencies
+Command 2) install the Pillow (PIL) library and dependencies
 -----------------------------------
 sudo apt update \
 pip3 install \
@@ -31,19 +32,19 @@ pip3 install \
 --only-binary=:all: --upgrade \
 pillow boto3
 
-Command 3:go to package folder
+Command 3) go to package folder
 ----------------------------------
 cd package
 
-Command 4: Zip the contents of the package folder
+Command 4) Zip the contents of the package folder
 -----------------------------------
 zip -r ../lambda_function.zip .
 
-Command 5: Go back to the project folder
+Command 5) Go back to the project folder
 ------------------------------------
 cd ..
 
-Command 6: Zip the lambda_function.py file into the lambda_function.zip file
+Command 6) Zip the lambda_function.py file into the lambda_function.zip file
 ------------------------------------
 zip lambda_function.zip lambda_function.py
 
